@@ -4,6 +4,8 @@ require 'openssl'
 # puts OpenSSL::PKey::EC.builtin_curves
 
 # Pick a curve group
+# prime256v1 and secp384r1 are widely available
+# but secp384r1 may be much (100x) slower
 curve_group = 'prime256v1'
 
 # Generate a random key pair
