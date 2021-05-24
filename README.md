@@ -12,6 +12,12 @@ Check individual directories for more details and usage instructions.
 | `ec_pkey_signatures`  | Generating and verifying signatures using the "Elliptic Curve Digital Signature Algorithm" (ECDSA) |
 | `rsa_pkey_signatures` | Generating and verifying signatures using RSA keys |
 
+### Tests
+
+To run tests:
+
+`ruby test/test.rb`
+
 ## License
 
 MIT

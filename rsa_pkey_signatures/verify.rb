@@ -24,8 +24,4 @@ begin
   else
     puts 'Signatures did not match!'
   end
-rescue OpenSSL::PKey::PKeyError => e
-  # This error can be raised if the signature
-  # is not even a invalid signature
-  abort "There was an error: #{e.inspect}"
 end
